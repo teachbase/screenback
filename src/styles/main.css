@@ -1,0 +1,20 @@
+@import "vars";
+
+.main {
+  display: flex;
+}
+ 
+/* Testing cssnext */
+.cssnext {
+  background: $red;
+}
+ 
+/* Testing precss */
+.precss {
+  @if 3 < 5 {
+    background: $green;
+  }
+  @else {
+    background: $blue;
+  }
+}
